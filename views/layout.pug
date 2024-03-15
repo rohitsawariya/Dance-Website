@@ -1,0 +1,19 @@
+html
+  head
+    title Dance Academy
+    block style
+    block scripts
+  body
+    nav#navbar 
+        ul
+            div#logo
+                img(src="https://cdn.pixabay.com/photo/2023/05/21/16/03/dancers-8008803_1280.png")
+                | Dance
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Service] 
+            li #[a(href='/contact') Contact] 
+            li #[a(href='/') Help]
+    block content
+    footer.ftr  
+        p  Copyright© 2023 Dance Academy | All Right Reserved

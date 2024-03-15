@@ -1,0 +1,106 @@
+extends layout.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content         
+    .section1 
+        h1 Newly Introduced Dance Academy 
+        h2 Dance, Sweat, Smile
+    //- hr
+    .section2 
+        h1 Our Dances/Sessions
+        .box.rightbd.btmbd#hiphop
+            div.head
+                 h2 HIPHOP
+                 ul
+                     li 
+                              |✓ Hip-hop allows for individual creativity and expression.
+                     li 
+                              |✓ expresses confidence, attitude, and individuality
+                     li 
+                              |✓ Improved Flexibility.
+            .gallery#gal1 
+                div.p1(
+                         style="background-image: url(https://images.unsplash.com/photo-1548123378-bde4eca81d2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);")
+                div.p1.row-2(
+                         style="background-image: url(https://cdn.pixabay.com/photo/2019/04/06/00/21/man-4106429_1280.jpg);")
+                div.p1(
+                         style="background-image: url(https://cdn.pixabay.com/photo/2017/08/07/11/02/street-dancer-2602633_1280.jpg);")
+                div.p1.col-2(
+                         style="background-image: url(https://cdn.pixabay.com/photo/2018/03/24/11/22/hip-hop-3256398_1280.jpg);")
+
+        .box.leftbd.btmbd#lyrical 
+            div.head
+                 h2 LYRICAL
+            ul
+                 li 
+                        |✓ Flow and Fluidity
+                 li 
+                        |✓ Lyrical dance express emotions through music with precision
+                 li 
+                        |✓ Flow of movement to the song's lyrics
+            .gallery#gal2
+                 div.p1(
+                         style="background-image: url(https://plus.unsplash.com/premium_photo-1682096578903-71faffaec40d?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);")
+                 div.p1.row-2(
+                         style="background-image: url(https://images.unsplash.com/photo-1541904845547-0eaf866de232?q=80&w=1882&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);")
+                 div.p1(
+                         style="background-image: url(https://images.unsplash.com/photo-1511715282680-fbf93a50e721?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);")
+                 div.p1.col-2(
+                         style="background-image: url(https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);")
+        .box.rightbd.topbd#classical
+            div.head
+                 h2 CLASSICAL
+                 ul 
+                    li 
+                        |✓ Stress Reduction
+                    li 
+                        |✓ Coordination and Balance
+                    li 
+                        |✓ Creativity and Self-Expression
+            .gallery#gal3
+                div.p1(
+                         style="background-image: url(https://images.unsplash.com/photo-1583661676511-6136039fc42a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);")
+                div.p1.row-2(
+                         style="background-image: url(https://images.unsplash.com/photo-1560646008-44ea61640db6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);")
+                div.p1(
+                         style="background-image: url(https://cdn.pixabay.com/photo/2015/01/14/20/31/indian-dance-599611_1280.jpg);")
+                div.p1.col-2(
+                         style="background-image: url(https://images.unsplash.com/photo-1535525153412-5a42439a210d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);")
+            
+        .box.leftbd.topbd#contemporary
+            div.head
+                 h2 CONTEMPORARY
+                 ul 
+                    li 
+                        |✓ Freedom of Expression
+                    li 
+                        |✓ Fluidity and Versatility
+                    li 
+                        |✓ Collaborative Art Form
+          
+       
+            .gallery#gal4
+                 div.p1(
+                         style="background-image: url(https://images.unsplash.com/photo-1535525153412-5a42439a210d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);")
+                 div.p1.row-2(
+                         style="background-image: url(https://images.unsplash.com/photo-1540324155974-7523202daa3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1915&q=80);")
+                 div.p1(
+                         style="background-image: url(https://images.unsplash.com/photo-1531947556702-6b7a7c64b83e?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);")
+                 div.p1.col-2(
+                         style="background-image: url(https://images.unsplash.com/photo-1454486837617-ce8e1ba5ebfe?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);")
+
+    .section4 
+        .heading
+            h1 Our Success🏆
+        .list 
+            div.pic
+                img(src="https://cdn.pixabay.com/photo/2017/02/01/09/57/award-2029288_1280.png")
+                img(src="https://cdn.pixabay.com/photo/2017/01/31/13/12/first-2023915_960_720.png")
+                img(src="https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163347_960_720.png")
+   
